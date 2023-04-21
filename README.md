@@ -1,6 +1,7 @@
 # NuttX-PiPico-WAVtoI2S-64fs
 ## What is this?
-Pre-built NuttX modified to support 64fs YDA142 and other 64fs I2Sdacs.
+Pre-built NuttX modified to support 64fs YDA142 and other 64fs I2Sdacs.　　
+WAV files saved on SD card can be played from the Terminal.
 ## Wiring
 Terminal can be accessed through UART0.
 | UART0 | GPIO  |
@@ -22,6 +23,8 @@ Terminal can be accessed through UART0.
 | RX        | GP16  |
 
 ## How to use
+The schematic design for YDA142 can be viewed here.
+https://github.com/takuhoTech/YDA142-Kicad-Symbol-and-Footprint/blob/main/AudioAmplifier.pdf
 ```
 NuttShell (NSH) NuttX-10.0.1
 nsh> nxplayer
