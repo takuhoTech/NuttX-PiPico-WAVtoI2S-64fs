@@ -24,7 +24,9 @@ Terminal can be accessed through UART0.
 
 ## How to use
 The schematic design for YDA142 can be viewed here.
+
 https://github.com/takuhoTech/YDA142-Kicad-Symbol-and-Footprint/blob/main/AudioAmplifier.pdf
+
 ```
 NuttShell (NSH) NuttX-10.0.1
 nsh> nxplayer
